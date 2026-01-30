@@ -47,3 +47,13 @@ export function isStringPalindrome(str)
 
     
 }
+
+//Example usage:
+console.log(isStringPalindrome("A man, a plan, a canal: Panama")); //true
+console.log(isStringPalindrome("racecar")); //true
+console.log(isStringPalindrome("hello")); //false
+console.log(isStringPalindrome("")); //false
+console.log(isStringPalindrome("No 'x' in Nixon")); //true
+console.log(isStringPalindrome(12321)); //false
+console.log(isStringPalindrome("12321")); //true
+console.log(isStringPalindrome("!!!")); //false

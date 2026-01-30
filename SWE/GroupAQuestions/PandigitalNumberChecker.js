@@ -36,3 +36,15 @@ export function isPandigitalNumber(num)
     return false;
 
 }   
+
+//Example usage:
+console.log(isPandigitalNumber(1023456789)); //true
+console.log(isPandigitalNumber(-9876543210)); //true
+console.log(isPandigitalNumber(123456789)); //false
+console.log(isPandigitalNumber(1122334455)); //false
+console.log(isPandigitalNumber(12345678901234567890)); //true
+console.log(isPandigitalNumber(12345.6789)); //false
+console.log(isPandigitalNumber(NaN)); //false
+console.log(isPandigitalNumber(Infinity)); //false
+console.log(isPandigitalNumber("1234567890")); //false
+console.log(isPandigitalNumber(123456789012345678901234567890)); //true
