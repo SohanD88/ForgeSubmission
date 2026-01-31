@@ -1,5 +1,5 @@
 /**
- * Checks is a the given string is a palindrome.
+ * Checks if the given string is a palindrome.
  * Assumes a string input.
  * Ignores case and non-alphanumeric characters.
  * Assumes an empty string is NOT a palindrome.
